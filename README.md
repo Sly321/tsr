@@ -23,4 +23,4 @@ git push -u origin master
 
 Check out the other banches:
 
-* []()
+* [With Redux](https://github.com/Sly321/tsr/tree/with-redux)
