@@ -5,4 +5,4 @@ require("jest-enzyme")
 
 Enzyme.configure({
 	adapter: new Adapter()
-});
+})

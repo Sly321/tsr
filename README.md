@@ -16,7 +16,7 @@ Enzyme Shallowwrapper Snapshots are possible.
 
 Add your own gitrepo...
 
-```
+```bash
 git remote add origin https://github.com/<yourname>/<yourproject>.git
 git push -u origin master
 ```
