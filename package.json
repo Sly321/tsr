@@ -15,8 +15,38 @@
     "webpack-cli": "^2.0.12",
     "webpack-dev-server": "^3.1.1"
   },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/jest": "^22.2.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "jest-enzyme": "^6.0.0",
+    "ts-jest": "^22.4.2"
+  },
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "tsConfigFile": "tsconfig.json"
+      }
+    },
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setupTests.js",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.config.js",
-    "build": "webpack --config config/webpack.config.js"
+    "build": "webpack --config config/webpack.config.js",
+    "test": "jest --watch"
   }
 }
