@@ -22,6 +22,10 @@ describe(`<SomeTest />`, () => {
 			expect(tree).toHaveProp("expectation", "expectation")
 		})
 
+		it(`create a snapshot`, () => {
+			expect(tree).toMatchSnapshot()
+		})
+
 	})
 
 })

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SomeTest /> <div>asdf</div> create a snapshot 1`] = `
+<div
+  className="reality"
+>
+  reality
+</div>
+`;
