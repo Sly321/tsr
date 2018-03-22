@@ -4,9 +4,11 @@
 
 `git clone https://github.com/Sly321/tsr.git`
 
-`rm -rf tsr/.git`
-
 `cd tsr`
+
+`git checkout with-redux`
+
+`rm -rf .git`
 
 `git init`
 
@@ -20,7 +22,3 @@ git push -u origin master
 `yarn` or `npm install`
 
 `yarn start` or `npm start`
-
-Check out the other banches:
-
-* []()
