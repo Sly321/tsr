@@ -1,6 +1,7 @@
-const paths = require('./paths')
+import webpack from "webpack"
+import paths from "./paths"
 
-module.exports = {
+const config: webpack.Configuration = {
 	mode: "development",
 	entry: [paths.indexts],
 	devtool: 'inline-source-map',
@@ -28,5 +29,7 @@ module.exports = {
 	output: {
 		path: paths.dist,
 		filename: paths.jsoutput
-	},
+	}
 }
+
+export default config
